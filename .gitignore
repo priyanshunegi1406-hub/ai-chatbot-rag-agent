@@ -1,0 +1,33 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Environment files with sensitive credentials
+.env
+.env.local
+.env.*.local
+
+# ChromaDB local persistence data
+chroma_db/
+*.sqlite3
+
+# Uploaded runtime documents
+data/*
+!data/.gitkeep
+
+# Streamlit config / cache
+.streamlit/secrets.toml
+
+# IDE / OS specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
